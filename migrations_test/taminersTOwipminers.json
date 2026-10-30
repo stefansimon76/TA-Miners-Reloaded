@@ -1,0 +1,26 @@
+{
+    "entity":
+    [
+        ["crust_extractor",     "xxxx"],
+        ["moho_extractor",      "xxxx"],
+        ["mantle_extractor",    "xxxx"]
+    ],
+    "item":
+    [
+        ["crust_extractor",     "xxxx"],
+        ["moho_extractor",      "xxxx"],
+        ["mantle_extractor",    "xxxx"]
+    ],
+    "technology":
+    [
+        ["crust_extractor",     "xxxx"],
+        ["moho_extractor",      "xxxx"],
+        ["mantle_extractor",    "xxxx"]
+    ],
+    "recipe":
+    [
+        ["crust_extractor",     "xxxx"],
+        ["moho_extractor",      "xxxx"],
+        ["mantle_extractor",    "xxxx"]
+    ]
+}

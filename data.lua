@@ -1,0 +1,7 @@
+require("miners.items")
+require("miners.recipes")
+require("miners.technology")
+require("miners.entities")
+require("utils.ta-data-table")
+require("utils.functions")
+require("utils.recipebuilder")

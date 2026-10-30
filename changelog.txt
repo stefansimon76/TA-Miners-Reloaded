@@ -1,0 +1,152 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.0.5
+Date: 31/03/2025
+  Changes:
+    - Now miners can mine tungsten with space age
+    - Now miners can be moved on rockets
+---------------------------------------------------------------------------------------------------
+Version: 2.0.4
+Date: 27/01/2025
+  Added:
+    - resource drain adjustment for the new version of factorio
+---------------------------------------------------------------------------------------------------
+Version: 2.0.3
+Date: 27/10/2024
+  Changes:
+    - Fixed data in the last 2.0.2 changelog
+  Bugfixes:
+    - Fixed compatibility with kr2 (https://mods.factorio.com/mod/WipMod_TA-miners/discussion/671da570ba696335de86cb25)
+---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 23/10/2024
+  Changes:
+    - Updated to factorio 2.0
+    - No more modules, this is not the place for them
+    - Removed expensive recipe
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 01/08/2023
+  Added:
+    - Recipes with exotic industries (only: exotic-industries-compatibility)
+  Bugfixes:
+    - space exploration integration
+    - miner would put items in the wrong side of the belt when facing up
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 14/05/2022
+  Changes:
+    - changed descrition
+    - changed 1.1.6 changelog a bit (grammar and date added changes)
+    - code reordered part 2/2 ( mantle/crust/moho - modules )
+    - reordered internal file part 2/2 ( miners/modules )
+    - changed the way compatibity with space exploration wrork
+    - reworked how recipe are modified, allowing more deph mod compatibility ( recipe )
+  Notes:
+    - With this update I basically reworked the entire mod (exepct for the graphics) and I'm pretty prod of the difference between this and teh first version, with this update the mod will receive update less frequently since the majour part of teh work is done, I'm sill gonna add compatibility with other mods on request and try to improve stuff sometimes, thanks for using this mod
+    - Well I don't really want to lock the module of this mod so for now you this setting will not appear
+---------------------------------------------------------------------------------------------------
+Version: 1.1.6
+Date: 14/10/2021
+  Added:
+    - setting to choice till what tier of miner you want to use in your world
+  Changes:
+    - code reordered part 1/2 (moho/se_tech/tech/recipes/modules)
+  Bugfixes:
+    - mod crash with bob's recipe enabled
+    - mod crash with space esploration
+  Notes:
+    - in a future update I'm gonna add a setting to disable normal module and put in the miners only proprietary module for balancing reason, this will be on by default but you'll be able to turn it off
+---------------------------------------------------------------------------------------------------
+Version: 1.1.5
+Date: 11/10/2021
+  Added:
+    - compatibility with CustomModules
+  Changes:
+    - internal changes to the recipe editor
+    - reordered internal file part 1/2 (graphics/utils)
+---------------------------------------------------------------------------------------------------
+Version: 1.1.4
+Date: 21/09/2021
+  Bugfixes:
+    - space exploration compatilibity issues
+---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date: 20/09/2021
+  Added:
+    - compatibility with ir2
+  Bugfixes:
+    - setting for mod compatibility won't appear
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 26/07/2021
+  Added:
+    - option to rebalance recipe in vanilla see the difference on the website: https://
+    - option to rebalance teh recipe if other mod are installed
+  Notes:
+    - all the modded toggle are item added on top of the vanilla one, I suggest playing on easy/normal if you plan on eanbling those too
+    - all modded recipe may be suggest to changes in the future
+  Planned:
+    - when enabling modded recipe if those mod have scienze those may be added on the technology too (this won't affect already researched one)
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 12/05/2021
+  Bugfixes:
+    - fixed changelog (not really a bug)
+    - incompatibility with bobplates
+---------------------------------------------------------------------------------------------------
+Version: 1.1
+Date: 07/05/2021
+  Changes:
+    - Reworked the entire changelog
+  Added:
+    - 1.1 update
+---------------------------------------------------------------------------------------------------
+Version: 0.18.1
+  Changes:
+    - Reduced mining time for all miners.
+    - Increased Module Slots from 1/2/3 to 3/6/9
+  Bugfixes:
+    - Miners dont producing pollution, fixed.
+---------------------------------------------------------------------------------------------------
+Version: 0.18.0
+  Added:
+    - 0.18 version
+---------------------------------------------------------------------------------------------------
+Version: 0.17.1
+  Changes:
+    - translations fix
+---------------------------------------------------------------------------------------------------
+Version: 0.17.0
+  Changes:
+    - Removed Module Restrictions and added more slots, from 1/1/1 to 1/2/3.
+    - Updated Mining Speed to match new belt speed, from 40/80/160 to 45/90/180
+    - Updated Energy Consumption to match new Mining Speed, from 6.5/12.5/25 MW to 8/16/32 MW
+    - Halved niobium plate cost
+  Notes:
+    - BOBs version (Not Tested yet)
+    - PY version (Not Tested yet)
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4 
+  Compatibility addons:
+    - Bobs (requires Bobs Metals, Modules and Logistics) 
+    - PyAnodons (requires Py Coal, HighTech and Fusion) - recipes by: immortal_sniper1
+  Added translations:
+    - Russian Translation Improved a bit.
+  Notes:
+    - If you have Bobs AND PyAnodon, Py compatibility will have the preference.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+  Changes:
+    - Greatly reduced the sprites files sizes, now you can run this mod in a potato pc as well. Thanks to ialsojustwantmods for the sprites.
+  Added translations:
+    - Polish (PL) - by haribi
+    - Russian (RU) by ialsojustwantmods
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2 
+  Added translations:
+    - German (DE) - by Eradicator
+    - Simplified Chinese (zh-CN) - by xiaolianyy04
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+  Added:
+    - First release
