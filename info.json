@@ -1,15 +1,17 @@
 {
-  "name": "WipMod_TA-miners",
-  "version": "2.0.5",
-  "factorio_version": "2.0",
-  "title": "TA Miners",
-  "author": "WipMod",
-  "homepage": "https://discord.gg/753wmGJ",
-  "description": "This is a porting of (Texugo Texugo TA Miners)... Big Miners inspired on Total Annihilation metal extractors models, adds 3 tiers of massive miners that can mine entire ore spawns",
+  "name": "TA-Miners-Reloaded",
+  "version": "2.1.0",
+  "factorio_version": "2.1",
+  "title": "TA Miners Reloaded",
+  "author": "Stefan Berg",
+  "description": "Continuation of TA Miners for Factorio 2.1 and Krastorio 2. Original mod \"TA Miners\" by Texugo Maldito, ported to Factorio 1.1 and 2.0 by Wip-Sama. Big miners inspired by the Total Annihilation metal extractors: adds 3 tiers of massive miners that can mine entire ore patches.",
   "dependencies": [
-      "base >= 2.0",
-      "? bobplates >= 0.18.0",
-      "? boblogistics >= 0.18.0",
-      "? bobmodules >= 0.18.0"
-    ]
-} 
+    "base >= 2.1",
+    "? bobplates >= 0.18.0",
+    "? boblogistics >= 0.18.0",
+    "? bobmodules >= 0.18.0",
+    "? Krastorio2 >= 2.1.0",
+    "! WipMod_TA-miners",
+    "! Texugo_TA-miners"
+  ]
+}

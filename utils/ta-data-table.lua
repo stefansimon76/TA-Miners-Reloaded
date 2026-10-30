@@ -341,43 +341,47 @@ ta_data_table = {
             },
         },
 
-        -- krastorio 2 mod
+        -- krastorio 2 mod (2.x uses the "kr-" prefix for all of its items)
         kr2 = {
             recipe = {
                 minertier1 = {
                     category = "crafting-with-fluid",
                     energy_required = 90,
                     ingredients = {
-                        { type = "item", name = "electric-motor",   amount = 200 },
-                        { type = "item", name = "kr-steel-pipe",    amount = 100 },
-                        { type = "item", name = "steel-gear-wheel", amount = 200 },
+                        { type = "item", name = "electric-mining-drill", amount = 20 },
+                        { type = "item", name = "kr-steel-pipe",         amount = 100 },
+                        { type = "item", name = "kr-steel-gear-wheel",   amount = 200 },
                     },
                 },
                 minertier2 = {
                     category = "crafting-with-fluid",
                     energy_required = 90,
                         ingredients = {
-                            { type = "item", name = "kr-steel-pipe",    amount = 200 },
-                            { type = "item", name = "rare-metals",      amount = 100 },
-                            { type = "item", name = "steel-gear-wheel", amount = 200 },
+                            { type = "item", name = "kr-steel-pipe",       amount = 200 },
+                            { type = "item", name = "kr-rare-metals",      amount = 100 },
+                            { type = "item", name = "kr-steel-gear-wheel", amount = 200 },
                         },
                 },
                 minertier3 = {
                     category = "crafting-with-fluid",
                     energy_required = 90,
                         ingredients = {
-                            { type = "item", name = "kr-steel-pipe",  amount = 200 },
-                            { type = "item", name = "imersium-beam",  amount = 250 },
-                            { type = "item", name = "imersium-plate", amount = 250 },
+                            { type = "item", name = "kr-steel-pipe",     amount = 200 },
+                            { type = "item", name = "kr-imersium-beam",  amount = 250 },
+                            { type = "item", name = "kr-imersium-plate", amount = 250 },
                         },
                 },
             },
+            -- unlock the miners only after the technologies of the Krastorio 2 ingredients
             technology = {
                 minertier1 = {
+                    prerequisites = { "kr-steel-fluid-handling" },
                 },
                 minertier2 = {
+                    prerequisites = { "kr-rare-metal-processing" },
                 },
                 minertier3 = {
+                    prerequisites = { "kr-imersium-processing" },
                 },
             },
         },

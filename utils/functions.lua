@@ -82,7 +82,8 @@ end
 
 function TARecipeLoader(recipes, tier)
     if recipes and recipes.category then
-        data.raw["recipe"][tier].category = recipes.category
+        -- Factorio 2.1 replaced RecipePrototype::category with categories
+        data.raw["recipe"][tier].categories = { recipes.category }
     end
     if recipes then
         data.raw["recipe"][tier].energy_required = recipes.energy_required
@@ -189,9 +190,11 @@ function Ta_Result(table_original, table_new, table_to_edit)
 end
 
 function Ta_Clear_Table(data)
-    if data == nil or data ~= {} then
-        for k in ipairs(data) do
-            data[k] = {}
+    -- remove the entries instead of replacing them with {}, empty ingredients break the recipe
+    -- as soon as a second recipe set (e.g. Krastorio 2) is applied on top of the vanilla one
+    if data ~= nil then
+        for k = #data, 1, -1 do
+            data[k] = nil
         end
     end
 end

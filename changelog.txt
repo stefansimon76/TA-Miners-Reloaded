@@ -1,4 +1,19 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.1.0
+Date: 29/10/2026
+  Changes:
+    - Continued as "TA Miners Reloaded" (mod name TA-Miners-Reloaded). Original mod "TA Miners" by Texugo Maldito, Factorio 1.1 and 2.0 versions by Wip-Sama
+    - Updated to Factorio 2.1
+    - Krastorio 2 recipe setting is enabled by default when Krastorio 2 is installed
+    - Krastorio 2 recipes now also add the technologies of their ingredients as prerequisites
+  Bugfixes:
+    - Recipes use RecipePrototype::categories (category was removed in 2.1)
+    - Pipe pictures no longer use the removed global assembler2pipepictures()
+    - Circuit connection uses circuit_connector instead of the removed circuit_wire_connection_points
+    - Krastorio 2 recipes used item names from Krastorio 2 1.x (rare-metals, imersium-plate, ...) and the non-existing electric-motor
+    - Applying a modded recipe on top of the vanilla recipe left empty ingredients behind and crashed the game
+    - German locale did not apply because of wrong keys
+---------------------------------------------------------------------------------------------------
 Version: 2.0.5
 Date: 31/03/2025
   Changes:

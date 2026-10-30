@@ -3,7 +3,7 @@ data:extend({
     {
 		type = "item",
 		name = "crust_extractor",
-		icon = "__WipMod_TA-miners__/graphics/crust/crusticon.png",
+		icon = "__TA-Miners-Reloaded__/graphics/crust/crusticon.png",
 		icon_size= 32,
         group = "logistics",
 		subgroup = "energy",
@@ -15,7 +15,7 @@ data:extend({
     {
         type = "item",
         name = "moho_extractor",
-        icon = "__WipMod_TA-miners__/graphics/moho/mohoicon.png",
+        icon = "__TA-Miners-Reloaded__/graphics/moho/mohoicon.png",
         icon_size= 32,
         group = "logistics",
         subgroup = "energy",
@@ -27,7 +27,7 @@ data:extend({
     {
 		type = "item",
 		name = "mantle_extractor",
-		icon = "__WipMod_TA-miners__/graphics/mantle/mantleicon.png",
+		icon = "__TA-Miners-Reloaded__/graphics/mantle/mantleicon.png",
 		icon_size = 32,
         group = "logistics",
 		subgroup = "energy",

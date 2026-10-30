@@ -9,6 +9,7 @@ end
 -- Krastorio2
 if mods["Krastorio2"] then
     data.raw["bool-setting"]["ta-modded-kr2"].hidden = false
+    data.raw["bool-setting"]["ta-modded-kr2"].default_value = true
 end
 --space exploration
 if mods["space-exploration"] then

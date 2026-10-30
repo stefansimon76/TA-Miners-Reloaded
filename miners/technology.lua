@@ -5,7 +5,7 @@ data:extend({
         name = "crust_extractor",
         --hidden = true,
         icon_size = 128,
-        icon = "__WipMod_TA-miners__/graphics/crust/crusttec.png",
+        icon = "__TA-Miners-Reloaded__/graphics/crust/crusttec.png",
         prerequisites = {},
             effects = {
                 {type = "unlock-recipe", recipe = "crust_extractor"}
@@ -23,7 +23,7 @@ data:extend({
         name = "moho_extractor",
         --hidden = true,
         icon_size = 128,
-        icon = "__WipMod_TA-miners__/graphics/moho/mohotec.png",
+        icon = "__TA-Miners-Reloaded__/graphics/moho/mohotec.png",
         prerequisites = {},
             effects = {
                 {type = "unlock-recipe", recipe = "moho_extractor"}
@@ -41,7 +41,7 @@ data:extend({
         name = "mantle_extractor",
         --hidden = true,
         icon_size = 128,
-        icon = "__WipMod_TA-miners__/graphics/mantle/mantletec.png",
+        icon = "__TA-Miners-Reloaded__/graphics/mantle/mantletec.png",
         prerequisites = {},
         effects = {
             {type = "unlock-recipe", recipe = "mantle_extractor"}

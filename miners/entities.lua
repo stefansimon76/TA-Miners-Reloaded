@@ -1,9 +1,11 @@
+local assembler2pipepictures = require("__base__.prototypes.entity.assembler-pictures").assembler2pipepictures
+
 data:extend({
     -- crust
     {
         type = "mining-drill",
         name = "crust_extractor",
-        icon = "__WipMod_TA-miners__/graphics/crust/crusticon.png",
+        icon = "__TA-Miners-Reloaded__/graphics/crust/crusticon.png",
         icon_size=32,
         flags = {"placeable-neutral", "player-creation"},
         minable = {mining_time = 3, result = "crust_extractor"},
@@ -32,14 +34,13 @@ data:extend({
         },
         monitor_visualization_tint = {r=78, g=173, b=255},
         fast_replaceable_group = "mining-drill",
-        circuit_wire_connection_points = circuit_connector_definitions["electric-mining-drill"].points,
-        circuit_connector_sprites = circuit_connector_definitions["electric-mining-drill"].sprites,
+        circuit_connector = circuit_connector_definitions["electric-mining-drill"],
         circuit_wire_max_distance = default_circuit_wire_max_distance,
         collision_box = {{ -5.4, -5.4}, {5.4, 5.4}},
         selection_box = {{ -5, -5}, {5, 5}},
         input_fluid_box = {
             production_type = "input-output",
-            pipe_picture = assembler2pipepictures(),
+            pipe_picture = assembler2pipepictures,
             pipe_covers = pipecoverspictures(),
             volume = 200,
             pipe_connections = {
@@ -67,7 +68,7 @@ data:extend({
                         shift = { 0.35 , -0.40 },
                         stripes = {
                             {
-                                filename = "__WipMod_TA-miners__/graphics/crust/crust1.png",
+                                filename = "__TA-Miners-Reloaded__/graphics/crust/crust1.png",
                                 width_in_frames = 5,
                                 height_in_frames = 3,
                             }
@@ -83,7 +84,7 @@ data:extend({
                         shift = { 0.35 , -0.40 },
                         stripes = util.multiplystripes(15,{
                             {
-                                filename = "__WipMod_TA-miners__/graphics/crust/crustcima.png",
+                                filename = "__TA-Miners-Reloaded__/graphics/crust/crustcima.png",
                                 width_in_frames = 1,
                                 height_in_frames = 1,
                             },
@@ -97,7 +98,7 @@ data:extend({
     {
         type = "mining-drill",
         name = "moho_extractor",
-        icon = "__WipMod_TA-miners__/graphics/moho/mohoicon.png",
+        icon = "__TA-Miners-Reloaded__/graphics/moho/mohoicon.png",
         icon_size=32,
         flags = {"placeable-neutral", "player-creation"},
         minable = {mining_time = 5, result = "moho_extractor"},
@@ -124,14 +125,13 @@ data:extend({
         },
         monitor_visualization_tint = {r=78, g=173, b=255},
         fast_replaceable_group = "mining-drill",
-        circuit_wire_connection_points = circuit_connector_definitions["electric-mining-drill"].points,
-        circuit_connector_sprites = circuit_connector_definitions["electric-mining-drill"].sprites,
+        circuit_connector = circuit_connector_definitions["electric-mining-drill"],
         circuit_wire_max_distance = default_circuit_wire_max_distance,
         collision_box = {{ -6.4, -6.4}, {6.4, 6.4}},
         selection_box = {{ -6, -6}, {6, 6}},
         input_fluid_box = {
             production_type = "input-output",
-            pipe_picture = assembler2pipepictures(),
+            pipe_picture = assembler2pipepictures,
             pipe_covers = pipecoverspictures(),
             volume = 200,
             pipe_connections = {
@@ -160,7 +160,7 @@ data:extend({
                         scale = 1.02,
                         stripes = util.multiplystripes(24, {
                             {
-                                filename = "__WipMod_TA-miners__/graphics/moho/mohocima.png",
+                                filename = "__TA-Miners-Reloaded__/graphics/moho/mohocima.png",
                                 width_in_frames = 1,
                                 height_in_frames = 1,
                             },
@@ -176,12 +176,12 @@ data:extend({
                         shift = { 1.2 , -0.13 },
                         stripes = {
                             {
-                                filename = "__WipMod_TA-miners__/graphics/moho/moho1.png",
+                                filename = "__TA-Miners-Reloaded__/graphics/moho/moho1.png",
                                 width_in_frames = 4,
                                 height_in_frames = 4,
                             },
                             {
-                                filename = "__WipMod_TA-miners__/graphics/moho/moho2.png",
+                                filename = "__TA-Miners-Reloaded__/graphics/moho/moho2.png",
                                 width_in_frames = 4,
                                 height_in_frames = 4,
                             }
@@ -195,7 +195,7 @@ data:extend({
     {
         type = "mining-drill",
         name = "mantle_extractor",
-        icon = "__WipMod_TA-miners__/graphics/mantle/mantleicon.png",
+        icon = "__TA-Miners-Reloaded__/graphics/mantle/mantleicon.png",
         icon_size=32,
         flags = {"placeable-neutral", "player-creation"},
         minable = {mining_time = 8, result = "mantle_extractor"},
@@ -222,14 +222,13 @@ data:extend({
         },
         monitor_visualization_tint = {r=78, g=173, b=255},
         fast_replaceable_group = "mining-drill",
-        circuit_wire_connection_points = circuit_connector_definitions["electric-mining-drill"].points,
-        circuit_connector_sprites = circuit_connector_definitions["electric-mining-drill"].sprites,
+        circuit_connector = circuit_connector_definitions["electric-mining-drill"],
         circuit_wire_max_distance = default_circuit_wire_max_distance,
         collision_box = {{ -8.4, -8.4}, {8.4, 8.4}},
         selection_box = {{ -8, -8}, {8, 8}},
         input_fluid_box = {
             production_type = "input-output",
-            pipe_picture = assembler2pipepictures(),
+            pipe_picture = assembler2pipepictures,
             pipe_covers = pipecoverspictures(),
             volume = 200,
             pipe_connections = {
@@ -257,7 +256,7 @@ data:extend({
                         shift = { 0.5 , 0.05  },
                         stripes = util.multiplystripes(72,{
                             {
-                                filename = "__WipMod_TA-miners__/graphics/mantle/mantlecima.png",
+                                filename = "__TA-Miners-Reloaded__/graphics/mantle/mantlecima.png",
                                 width_in_frames = 1,
                                 height_in_frames = 1,
                             },
@@ -273,42 +272,42 @@ data:extend({
                         shift = { 0.4 , 1.2 },
                         stripes = {
                             {
-                                filename = "__WipMod_TA-miners__/graphics/mantle/mantle1.png",
+                                filename = "__TA-Miners-Reloaded__/graphics/mantle/mantle1.png",
                                 width_in_frames = 3,
                                 height_in_frames = 3,
                             },
                             {
-                                filename = "__WipMod_TA-miners__/graphics/mantle/mantle2.png",
+                                filename = "__TA-Miners-Reloaded__/graphics/mantle/mantle2.png",
                                 width_in_frames = 3,
                                 height_in_frames = 3,
                             },
                             {
-                                filename = "__WipMod_TA-miners__/graphics/mantle/mantle3.png",
+                                filename = "__TA-Miners-Reloaded__/graphics/mantle/mantle3.png",
                                 width_in_frames = 3,
                                 height_in_frames = 3,
                             },
                             {
-                                filename = "__WipMod_TA-miners__/graphics/mantle/mantle4.png",
+                                filename = "__TA-Miners-Reloaded__/graphics/mantle/mantle4.png",
                                 width_in_frames = 3,
                                 height_in_frames = 3,
                             },
                             {
-                                filename = "__WipMod_TA-miners__/graphics/mantle/mantle5.png",
+                                filename = "__TA-Miners-Reloaded__/graphics/mantle/mantle5.png",
                                 width_in_frames = 3,
                                 height_in_frames = 3,
                             },
                             {
-                                filename = "__WipMod_TA-miners__/graphics/mantle/mantle6.png",
+                                filename = "__TA-Miners-Reloaded__/graphics/mantle/mantle6.png",
                                 width_in_frames = 3,
                                 height_in_frames = 3,
                             },
                             {
-                                filename = "__WipMod_TA-miners__/graphics/mantle/mantle7.png",
+                                filename = "__TA-Miners-Reloaded__/graphics/mantle/mantle7.png",
                                 width_in_frames = 3,
                                 height_in_frames = 3,
                             },
                             {
-                                filename = "__WipMod_TA-miners__/graphics/mantle/mantle8.png",
+                                filename = "__TA-Miners-Reloaded__/graphics/mantle/mantle8.png",
                                 width_in_frames = 3,
                                 height_in_frames = 3,
                             }

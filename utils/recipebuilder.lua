@@ -38,6 +38,7 @@ if settings.startup["ta-modded-py"].value == true then
 end
 if settings.startup["ta-modded-kr2"].value == true then
     TaLoadRecipe(ta_data_table.modded.kr2.recipe)
+    TaLoadTech(ta_data_table.modded.kr2.technology)
 end
 if settings.startup["ta-modded-ir2"].value == true then
     TaLoadRecipe(ta_data_table.modded.ir2.recipe)

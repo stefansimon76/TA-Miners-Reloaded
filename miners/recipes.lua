@@ -3,7 +3,7 @@ data:extend({
     {
         type = "recipe",
         name = "crust_extractor",
-        category = "crafting-with-fluid",
+        categories = { "crafting-with-fluid" },
         enabled = false,
         energy_required = 0,
         ingredients = {},
@@ -13,7 +13,7 @@ data:extend({
     {
         type = "recipe",
         name = "moho_extractor",
-        category = "crafting-with-fluid",
+        categories = { "crafting-with-fluid" },
         enabled = false,
         energy_required = 0,
         ingredients = {},
@@ -23,7 +23,7 @@ data:extend({
     {
         type = "recipe",
         name = "mantle_extractor",
-        category = "crafting-with-fluid",
+        categories = { "crafting-with-fluid" },
         enabled = false,
         energy_required = 0,
         ingredients = {},
